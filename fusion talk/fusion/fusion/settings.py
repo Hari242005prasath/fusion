@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fusion_app', # Add the fusion_app to the INSTALLED_APPS list
 ]
 
 MIDDLEWARE = [
