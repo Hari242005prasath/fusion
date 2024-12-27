@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
-
+#User Authentication and Profile Management:
 class RegisterUserView(APIView):
     def post(self, request):
         username = request.data.get('username')
@@ -75,3 +75,40 @@ class UpdateUserProfileView(APIView):
 
         return Response({"message": "Profile updated successfully"}, status=status.HTTP_200_OK)
     
+#Group Management
+
+
+
+
+
+
+
+#Chat Functionality
+
+
+
+
+
+#Gemini API Integration
+
+
+
+
+
+#Private g char
+
+
+
+
+#Scalability and extendibility
+
+
+
+
+
+
+
+#Notification 
+
+
+
