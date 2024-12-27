@@ -75,20 +75,3 @@ class UpdateUserProfileView(APIView):
 
         return Response({"message": "Profile updated successfully"}, status=status.HTTP_200_OK)
     
-class UpdateUserProfileView(APIView):
-    permission_classes = [IsAuthenticated]
-
-    def put(self, request):
-        user = request.user
-        display_name = request.data.get('display_name')
-        email = request.data.get('email')
-
-        if display_name:
-            user.first_name = display_name
-        if email:
-            user.email = email
-        user.save()
-
-        return Response({"message": "Profile updated successfully"}, status=status.HTTP_200_OK)
-
-        
