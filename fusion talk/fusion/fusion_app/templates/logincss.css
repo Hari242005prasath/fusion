@@ -1,24 +1,27 @@
-div{
+.whole{
+    width:100%;
+    min-width:300px;
+}
+.in{
     padding:0px;
     background-color: #007AFFC4;
-    opacity: 80%;
-    width: 360px;
+    opacity: 85%;
     height:200px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 img{
     position:relative;
-    Width:83px;
+    Width:85px;
     Height:83px;
-    Top:21px;
-    Left:260px;
+    Top:15px;
+    Left:165px;
     border-radius:512px;
 }
 div p{
     color:white;
     font-family: Inter;
-    font-weight:800;
+    font-weight:600;
     padding-left:20px ;
     padding-bottom:0px;
     font-size: 20px;
@@ -29,4 +32,97 @@ div p{
     padding-left:20px ;
     padding-top:0px;
     font-size: 15px;
+    font-weight:normal;
+    width:100%;
+    min-width:300px;
 }
+.back-button img {
+    Width:40px;
+    Height:35px;
+    Top:5px;
+    Left:10px;
+    cursor: pointer;
+  }
+/* Styling for the container */
+.input-container {
+    margin:90px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #007bff; /* Blue color for the label */
+  }
+  
+  .input-container label {
+    margin-top:20px;
+    margin-left:35px;
+    position:absolute;
+    top:258px;
+    left:20px;
+    background-color:white;
+    padding-left:3px;
+    padding-right:3px;
+  }
+  
+  /* Input wrapper styling */
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 25px; /* Rounded corners */
+    padding: 9px 10px;
+    background-color: #f9fcff; /* Light background color */
+  }
+  
+  /* Country code styling */
+  .country-code {
+    font-size: 14px;
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  /* Input field styling */
+  .input-wrapper input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+  }
+  .loginbutton{
+    margin:27px 20px;
+    background-color:#007AFFC4;
+    color:white;
+    border-radius:25px;
+    opacity:70%;
+    cursor: pointer;
+  }
+  .loginbutton p{
+    padding:15px 10px;
+    text-align:center;
+    font-family:Inter;
+    font-weight:400;
+    font-size:18px;
+  }
+  .footer p{
+    margin-top:260px;
+    /*margin-left:10px;*/
+    color:#191919CC;
+    text-align:center;
+    opacity:80;
+    font-size:12px;
+    font-family:Inter;
+    font-weight:400;
+  }
+  .footer p span{
+    color:#007AFFC4;
+    opacity:80;
+    font-weight:500;
+  }
+  .loginbutton:hover{
+    background-color:#007AFFC4;
+    opacity :130%;
+  }

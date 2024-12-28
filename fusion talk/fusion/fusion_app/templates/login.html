@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="Stylesheet" href="logincss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="whole">
+    <div class="in">
+        <a href="register.html" class="back-button" style="text-decoration: none;">
+            <img src="C:\Users\mahas\Downloads\back.png" alt="Back" />
+        </a>
         <img src="C:\Users\mahas\OneDrive\Desktop\logo.png" alt="Logo">
         <p>Login</p>
         <p class="two">Enter your 10-digit mobile number to continue.</p>
+            <div class="input-container">
+                <label for="phone">Phone</label>
+                <div class="input-wrapper">
+                  <span class="country-code">+91</span>
+                  <input type="text" id="phone" placeholder="Enter your number" />
+                </div>
+            </div>
+            <div class="loginbutton">
+                <p>Login</p>
+            </div>
+            <div class="footer">
+                <p>Dont have an account <span>Register</span></p>
+            </div>
+    </div>
     </div>
 </body>
 </html>
